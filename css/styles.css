@@ -2,11 +2,11 @@
   display: none;
 }
 
-#person {
+#country {
   cursor: pointer;
   color: #0088cc;
 }
 
-#person:hover {
+#country:hover {
   text-decoration: underline;
 }
