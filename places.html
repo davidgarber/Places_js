@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places You've Been</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Places You've Been!!!!!!!!</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add A Place:</h2>
+          <form id="new-location">
+            <div class="form-group">
+              <label for="new-first-name">First name</label>
+              <input type="text" class="form-control" id="new-first-name">
+            </div>
+            <div class="new-location">
+              <div class="form-group">
+                <label for="new-city">City</label>
+                <input type="text" class="form-control new-city">
+              </div>
+              <div class="form-group">
+                <label for="new-country">Country</label>
+                <input type="text" class="form-control new-country">
+              </div>
+            </div>
+        </div>
+            <span class="btn btn-primary" id="add-places">Another Place</span>
+            <button type="submit" class="btn">Add</button>
+          </form>
+
+          <h2>People:</h2>
+          <ul id="person">
+
+          </ul>
+
+        <div class="hidden-list">
+        <h2>Kewl Places <span class="name"></span> has been:</h2>
+        <ul id="kewl-places">
+
+        </ul>
+      </div>
+      </div>
+        <div class="col-md-6">
+          <div id="show-locations">
+            <h2></h2>
+
+            <ul id="location-list">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

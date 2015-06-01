@@ -1,0 +1,12 @@
+.hidden-list {
+  display: none;
+}
+
+#person {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#person:hover {
+  text-decoration: underline;
+}
